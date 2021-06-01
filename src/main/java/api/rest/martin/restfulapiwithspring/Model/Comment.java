@@ -1,7 +1,6 @@
 package api.rest.martin.restfulapiwithspring.Model;
-
-import javax.persistence.*;
 import java.time.LocalDateTime;
+import javax.persistence.*;
 
 @Entity
 public class Comment {
@@ -20,6 +19,8 @@ public class Comment {
 		this.data = data;
 		this.date = LocalDateTime.now();
 	}
+
+
 
 	public Long getId() {
 		return id;
